@@ -54,3 +54,4 @@ This example relies on [graph.cool](https://www.graph.cool) for its GraphQL back
 Note: Do not be alarmed that you see two renders being executed. Apollo recursively traverses the React render tree looking for Apollo query components. When it has done that, it fetches all these queries and then passes the result to a cache. This cache is then used to render the data on the server side (another React render).
 https://www.apollographql.com/docs/react/api/react-ssr/#getdatafromtree
 # next-apollo
+# with-apollo
